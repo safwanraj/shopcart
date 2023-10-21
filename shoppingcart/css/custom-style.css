@@ -1,0 +1,85 @@
+/* custom-style.css */
+
+/* Style the header background and text color */
+.custom-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Style the logo link */
+.custom-header .header-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the navigation list */
+.custom-nav .custom-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the navigation items */
+.custom-nav .nav-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Style the links */
+.custom-nav .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Style the dropdown menu */
+.custom-nav .nav-link.dropdown-toggle::after {
+    content: none; /* Remove the default caret icon */
+}
+
+/* Style the dropdown menu items */
+.custom-nav .dropdown-menu {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+/* Style the user's name in the dropdown */
+.custom-nav .dropdown-toggle::after {
+    content: none; /* Remove the default caret icon */
+}
+
+/* Add hover effect to the links */
+.custom-nav .nav-link:hover {
+    color: #ff9900; /* Change the color on hover */
+}
+/* Style the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style the footer text */
+.footer .text-muted {
+    font-size: 14px;
+}
+
+/* Add hover effect to footer links if you have any */
+.footer a:hover {
+    color: #ff9900; /* Change the color on hover */
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    /* Example: Make the navigation items stack on top of each other */
+    .custom-nav .nav-item {
+        display: block;
+        margin: 10px 0;
+    }
+}

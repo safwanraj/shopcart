@@ -1,0 +1,65 @@
+/* custom-admin-style.css */
+
+/* Styles for the admin container */
+.admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Styles for the admin sidebar */
+.admin-sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    padding: 20px 0;
+}
+
+.admin-sidebar-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.admin-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-nav li {
+    margin: 5px 0;
+}
+
+.admin-nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.admin-nav a.active {
+    background-color: #007bff;
+}
+
+/* Styles for the admin content */
+.admin-content {
+    padding: 20px;
+}
+
+.admin-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.admin-card-title {
+    font-size: 20px;
+}
+
+.admin-card-body {
+    font-size: 16px;
+}

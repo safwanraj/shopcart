@@ -1,0 +1,20 @@
+/* custom-login-style.css */
+
+/* Style the form container */
+.form-container {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the login form */
+.login-form {
+    padding: 20px;
+}
+
+/* Center the login form */
+.text-center {
+    text-align: center;
+}
